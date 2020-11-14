@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <div id="topbar">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+             width="90" height="30">                      
+            <a id="advlinks"  href="index.html">Google Search</a>            
+        </div>
+        
+        <p id="advancedtext">CS50W Advanced Search</p>
+        
+        <div style="border-bottom: 1px solid #ebebeb;"></div>
+                                    
+        <form id="advserach" action="https://www.google.com/search">         
+
+                <div style="font-size: 16px;font-weight: 500;">Find pages with ...</div>
+                <div></div>
+                <div style="font-size: 13px;font-weight: 700;">To do this in the serach box</div>
+
+                <label>all these words:</label>
+                <input id="test1" type="text" name="as_q" autofocus>
+                <div>Type th eimportant words: &nbsp tricolor rat terrier</div>
+
+                <label>this exact words or phrase:</label>
+                <input type="text" name="as_epq">
+                <div>Put exact words in quites: &nbsp rat terrier</div>
+
+                <label>any of these words:</label>
+                <input type="text" name="as_oq">
+                <div>Type PR between all the worids you want: &nbsp miniature OR standard</div> 
+
+                <label>non of these words:</label>
+                <input type="text" name="as_eq">
+                <div>Put a minus sign just before words you don't want:<br>-rodent, -"Jack Russell"</div>
+
+                <div></div>
+                <input  type="submit" value="Advanced Search">                     
+                <div></div>
+
+        </form>         
+             
+        <div style="border-bottom: 1px solid #ebebeb;"></div>
+        
+    </body>
+</html>
